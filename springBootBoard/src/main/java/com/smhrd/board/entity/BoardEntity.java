@@ -14,10 +14,7 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 @Entity
-@Getter
-@Setter
-@AllArgsConstructor
-@NoArgsConstructor
+
 public class BoardEntity {
 	
 	@Id // pk
@@ -102,11 +99,10 @@ public class BoardEntity {
 		this.writeDay = writeDay;
 	}
 
+	
 	public BoardEntity() {
-		super();
+
 	}
-	
-	
 	
 	
 	
