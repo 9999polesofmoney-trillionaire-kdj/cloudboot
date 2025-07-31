@@ -71,7 +71,7 @@ public class BoardController {
 				e.printStackTrace();
 			}
 			// 4. DB에 저장될 경로 문자열 설정
-			imPath = "/uploads/" + fileName;
+			imPath = "/home/git/uploads/" + fileName;
 		}
 		BoardEntity board = new BoardEntity();
 		board.setTitle(title);
